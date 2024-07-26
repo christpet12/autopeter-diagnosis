@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaopa Olawumi Ayobami - Automobile Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            padding: 30px;
+            background: white;
+            margin-top: 20px;
+        }
+        #about, #contact {
+            margin: 20px 0;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background: #003366;
+            border-radius: 5px;
+        }
+        .images img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Olaopa Olawumi Ayobami</h1>
+            <p>Specialist in Automobile Diagnosis</p>
+        </div>
+    </header>
+
+    <div id="main" class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I study Automobile Engineering and specialize in auto-diagnosis, which helps detect vehicle faults very fast. This reduces the cost of repair as it allows mechanics to identify the fault directly without trial and error. I also help in reading and translating error codes.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="images">
+                <img src="auto_diagnosis_1.jpg" alt="Automobile Diagnosis 1">
+                <img src="auto_diagnosis_2.jpg" alt="Automobile Diagnosis 2">
+                <img src="auto_diagnosis_3.jpg" alt="Automobile Diagnosis 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, please email me at <a href="mailto:olamsy3000@gmail.com" class="btn">olamsy3000@gmail.com</a> or call me at <a href="tel:+2348068901688" class="btn">+2348068901688</a>.</p>
+        </section>
+    </div>
+</body>
+</html>
